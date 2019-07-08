@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            Log.i(TAG,"Inner Receiver dan selamlar");
-            Toast.makeText(context, "Inner Receiverdan selamlar", Toast.LENGTH_SHORT).show();
+            Log.i(TAG,"Inner Receiver");
+            Toast.makeText(context, "Inner Receiverdan", Toast.LENGTH_SHORT).show();
         }
     }
 }
